@@ -25,7 +25,9 @@ By default, Minecraft servers have a somewhat depressing, black and white pictur
 
 ![old server icon](/images/games/minecraft/server-icon/old.png){data-zoomable}
 
-First, choose your preferred image for your server's logo. Reduce its size to 64x64, convert it to .png format, and save it as `server-icon.png`.
+First, choose your preferred image for your server's logo. Crop a rectangular image to a square before resizing it, so the logo is not stretched. Resize it to exactly 64x64 pixels, then export it as a PNG named `server-icon.png`. Renaming a JPEG file to `.png` does not convert its format.
+
+If you need a browser-based editor, [ServerBuddy's icon maker](https://serverbuddy.net/tools/minecraft-server-icon-maker) can crop the image and export a 64x64 PNG with the required filename. You can also use any image editor that supports PNG export.
 
 Now go to the management of the server you need.
 
